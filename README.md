@@ -4,7 +4,7 @@ This is a project giving easy level access to kernel drivers by implementing aro
 One day it may or may not enhance bug life.  
 
 ## Whats in it
-- IOAccelerator (Weird shit going on their, shared memory. Seems physmem backed. Managed to crash the GPU while fuzzing).  
+- IOAccelerator (Weird shit going on in there, crashed the GPU while fuzzing).  
 - IOSurfaceRoot (Not even halfly implemented, too lazy as the framework's private headers should be enough).  
 - IOMobileFramebuffer (Implemented as much as I know about).  
 
