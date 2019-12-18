@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8BC9014323A9142E00EAE845 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC9014223A9142E00EAE845 /* main.m */; };
+		8BC9014623A9142E00EAE845 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC9014523A9142E00EAE845 /* AppDelegate.m */; };
+		8BC9014923A9142E00EAE845 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC9014823A9142E00EAE845 /* ViewController.m */; };
+		8BC9014C23A9142E00EAE845 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BC9014A23A9142E00EAE845 /* Main.storyboard */; };
+		8BC9014F23A9142E00EAE845 /* Zeroday.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8BC9014D23A9142E00EAE845 /* Zeroday.xcdatamodeld */; };
+		8BC9015123A9142E00EAE845 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BC9015023A9142E00EAE845 /* Assets.xcassets */; };
+		8BC9015423A9142E00EAE845 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BC9015223A9142E00EAE845 /* LaunchScreen.storyboard */; };
+		8BC9015F23A9142E00EAE845 /* ZerodayUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC9015E23A9142E00EAE845 /* ZerodayUITests.m */; };
+		8BC9016B23A9144100EAE845 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BC9016A23A9144100EAE845 /* IOKit.framework */; };
+		8BC9016D23A9144700EAE845 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BC9016C23A9144700EAE845 /* AudioToolbox.framework */; };
+		8BC9016F23A9144A00EAE845 /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BC9016E23A9144A00EAE845 /* Metal.framework */; };
+		8BC9017123A9144F00EAE845 /* IOSurface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BC9017023A9144F00EAE845 /* IOSurface.framework */; };
+		8BC9017423AA205700EAE845 /* iomobileframebuffer.c in Sources */ = {isa = PBXBuildFile; fileRef = 8BC9017223AA205700EAE845 /* iomobileframebuffer.c */; };
+		8BC9017723AA20C100EAE845 /* iokit.c in Sources */ = {isa = PBXBuildFile; fileRef = 8BC9017523AA20C100EAE845 /* iokit.c */; };
+		8BC9017A23AA2E9F00EAE845 /* jpegdriver.c in Sources */ = {isa = PBXBuildFile; fileRef = 8BC9017823AA2E9F00EAE845 /* jpegdriver.c */; };
+		8BC9017D23AA33AE00EAE845 /* iocoresurfaceroot.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC9017B23AA33AE00EAE845 /* iocoresurfaceroot.m */; };
+		8BC9018023AA475000EAE845 /* ioaccelerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC9017E23AA475000EAE845 /* ioaccelerator.m */; };
+		8BC9018323AA6E5600EAE845 /* machaids.c in Sources */ = {isa = PBXBuildFile; fileRef = 8BC9018123AA6E5600EAE845 /* machaids.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8BC9015B23A9142E00EAE845 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8BC9013623A9142E00EAE845 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8BC9013D23A9142E00EAE845;
+			remoteInfo = Zeroday;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8BC9013E23A9142E00EAE845 /* iokitstuff.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iokitstuff.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BC9014223A9142E00EAE845 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8BC9014423A9142E00EAE845 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8BC9014523A9142E00EAE845 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8BC9014723A9142E00EAE845 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8BC9014823A9142E00EAE845 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8BC9014B23A9142E00EAE845 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8BC9014E23A9142E00EAE845 /* Zeroday.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Zeroday.xcdatamodel; sourceTree = "<group>"; };
+		8BC9015023A9142E00EAE845 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8BC9015323A9142E00EAE845 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8BC9015523A9142E00EAE845 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BC9015A23A9142E00EAE845 /* iokitstuffUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iokitstuffUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BC9015E23A9142E00EAE845 /* ZerodayUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZerodayUITests.m; sourceTree = "<group>"; };
+		8BC9016023A9142E00EAE845 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BC9016A23A9144100EAE845 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		8BC9016C23A9144700EAE845 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		8BC9016E23A9144A00EAE845 /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = System/Library/Frameworks/Metal.framework; sourceTree = SDKROOT; };
+		8BC9017023A9144F00EAE845 /* IOSurface.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOSurface.framework; path = System/Library/Frameworks/IOSurface.framework; sourceTree = SDKROOT; };
+		8BC9017223AA205700EAE845 /* iomobileframebuffer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = iomobileframebuffer.c; sourceTree = "<group>"; };
+		8BC9017323AA205700EAE845 /* iomobileframebuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iomobileframebuffer.h; sourceTree = "<group>"; };
+		8BC9017523AA20C100EAE845 /* iokit.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = iokit.c; sourceTree = "<group>"; };
+		8BC9017623AA20C100EAE845 /* iokit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iokit.h; sourceTree = "<group>"; };
+		8BC9017823AA2E9F00EAE845 /* jpegdriver.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = jpegdriver.c; sourceTree = "<group>"; };
+		8BC9017923AA2E9F00EAE845 /* jpegdriver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jpegdriver.h; sourceTree = "<group>"; };
+		8BC9017B23AA33AE00EAE845 /* iocoresurfaceroot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iocoresurfaceroot.m; sourceTree = "<group>"; };
+		8BC9017C23AA33AE00EAE845 /* iocoresurfaceroot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iocoresurfaceroot.h; sourceTree = "<group>"; };
+		8BC9017E23AA475000EAE845 /* ioaccelerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ioaccelerator.m; sourceTree = "<group>"; };
+		8BC9017F23AA475000EAE845 /* ioaccelerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ioaccelerator.h; sourceTree = "<group>"; };
+		8BC9018123AA6E5600EAE845 /* machaids.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = machaids.c; sourceTree = "<group>"; };
+		8BC9018223AA6E5600EAE845 /* machaids.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = machaids.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8BC9013B23A9142E00EAE845 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BC9017123A9144F00EAE845 /* IOSurface.framework in Frameworks */,
+				8BC9016F23A9144A00EAE845 /* Metal.framework in Frameworks */,
+				8BC9016D23A9144700EAE845 /* AudioToolbox.framework in Frameworks */,
+				8BC9016B23A9144100EAE845 /* IOKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BC9015723A9142E00EAE845 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8BC9013523A9142E00EAE845 = {
+			isa = PBXGroup;
+			children = (
+				8BC9014023A9142E00EAE845 /* Zeroday */,
+				8BC9015D23A9142E00EAE845 /* ZerodayUITests */,
+				8BC9013F23A9142E00EAE845 /* Products */,
+				8BC9016923A9144100EAE845 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8BC9013F23A9142E00EAE845 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8BC9013E23A9142E00EAE845 /* iokitstuff.app */,
+				8BC9015A23A9142E00EAE845 /* iokitstuffUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8BC9014023A9142E00EAE845 /* Zeroday */ = {
+			isa = PBXGroup;
+			children = (
+				8BC9014423A9142E00EAE845 /* AppDelegate.h */,
+				8BC9014523A9142E00EAE845 /* AppDelegate.m */,
+				8BC9014723A9142E00EAE845 /* ViewController.h */,
+				8BC9014823A9142E00EAE845 /* ViewController.m */,
+				8BC9014A23A9142E00EAE845 /* Main.storyboard */,
+				8BC9015023A9142E00EAE845 /* Assets.xcassets */,
+				8BC9015223A9142E00EAE845 /* LaunchScreen.storyboard */,
+				8BC9015523A9142E00EAE845 /* Info.plist */,
+				8BC9014D23A9142E00EAE845 /* Zeroday.xcdatamodeld */,
+				8BC9014123A9142E00EAE845 /* Supporting Files */,
+				8BC9017623AA20C100EAE845 /* iokit.h */,
+				8BC9017523AA20C100EAE845 /* iokit.c */,
+				8BC9017323AA205700EAE845 /* iomobileframebuffer.h */,
+				8BC9017223AA205700EAE845 /* iomobileframebuffer.c */,
+				8BC9017923AA2E9F00EAE845 /* jpegdriver.h */,
+				8BC9017823AA2E9F00EAE845 /* jpegdriver.c */,
+				8BC9017C23AA33AE00EAE845 /* iocoresurfaceroot.h */,
+				8BC9017B23AA33AE00EAE845 /* iocoresurfaceroot.m */,
+				8BC9017F23AA475000EAE845 /* ioaccelerator.h */,
+				8BC9017E23AA475000EAE845 /* ioaccelerator.m */,
+				8BC9018223AA6E5600EAE845 /* machaids.h */,
+				8BC9018123AA6E5600EAE845 /* machaids.c */,
+			);
+			path = Zeroday;
+			sourceTree = "<group>";
+		};
+		8BC9014123A9142E00EAE845 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8BC9014223A9142E00EAE845 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8BC9015D23A9142E00EAE845 /* ZerodayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8BC9015E23A9142E00EAE845 /* ZerodayUITests.m */,
+				8BC9016023A9142E00EAE845 /* Info.plist */,
+			);
+			path = ZerodayUITests;
+			sourceTree = "<group>";
+		};
+		8BC9016923A9144100EAE845 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8BC9017023A9144F00EAE845 /* IOSurface.framework */,
+				8BC9016E23A9144A00EAE845 /* Metal.framework */,
+				8BC9016C23A9144700EAE845 /* AudioToolbox.framework */,
+				8BC9016A23A9144100EAE845 /* IOKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8BC9013D23A9142E00EAE845 /* iokitstuff */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BC9016323A9142E00EAE845 /* Build configuration list for PBXNativeTarget "iokitstuff" */;
+			buildPhases = (
+				8BC9013A23A9142E00EAE845 /* Sources */,
+				8BC9013B23A9142E00EAE845 /* Frameworks */,
+				8BC9013C23A9142E00EAE845 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iokitstuff;
+			productName = Zeroday;
+			productReference = 8BC9013E23A9142E00EAE845 /* iokitstuff.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8BC9015923A9142E00EAE845 /* iokitstuffUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BC9016623A9142E00EAE845 /* Build configuration list for PBXNativeTarget "iokitstuffUITests" */;
+			buildPhases = (
+				8BC9015623A9142E00EAE845 /* Sources */,
+				8BC9015723A9142E00EAE845 /* Frameworks */,
+				8BC9015823A9142E00EAE845 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8BC9015C23A9142E00EAE845 /* PBXTargetDependency */,
+			);
+			name = iokitstuffUITests;
+			productName = ZerodayUITests;
+			productReference = 8BC9015A23A9142E00EAE845 /* iokitstuffUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8BC9013623A9142E00EAE845 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = kernelprogrammer;
+				TargetAttributes = {
+					8BC9013D23A9142E00EAE845 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 846WLH8CDP;
+						ProvisioningStyle = Automatic;
+					};
+					8BC9015923A9142E00EAE845 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = ZCB79JJ2EN;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8BC9013D23A9142E00EAE845;
+					};
+				};
+			};
+			buildConfigurationList = 8BC9013923A9142E00EAE845 /* Build configuration list for PBXProject "iokitstuff" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8BC9013523A9142E00EAE845;
+			productRefGroup = 8BC9013F23A9142E00EAE845 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8BC9013D23A9142E00EAE845 /* iokitstuff */,
+				8BC9015923A9142E00EAE845 /* iokitstuffUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8BC9013C23A9142E00EAE845 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BC9015423A9142E00EAE845 /* LaunchScreen.storyboard in Resources */,
+				8BC9015123A9142E00EAE845 /* Assets.xcassets in Resources */,
+				8BC9014C23A9142E00EAE845 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BC9015823A9142E00EAE845 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8BC9013A23A9142E00EAE845 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BC9017723AA20C100EAE845 /* iokit.c in Sources */,
+				8BC9014923A9142E00EAE845 /* ViewController.m in Sources */,
+				8BC9017D23AA33AE00EAE845 /* iocoresurfaceroot.m in Sources */,
+				8BC9014623A9142E00EAE845 /* AppDelegate.m in Sources */,
+				8BC9014F23A9142E00EAE845 /* Zeroday.xcdatamodeld in Sources */,
+				8BC9014323A9142E00EAE845 /* main.m in Sources */,
+				8BC9017423AA205700EAE845 /* iomobileframebuffer.c in Sources */,
+				8BC9018323AA6E5600EAE845 /* machaids.c in Sources */,
+				8BC9018023AA475000EAE845 /* ioaccelerator.m in Sources */,
+				8BC9017A23AA2E9F00EAE845 /* jpegdriver.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BC9015623A9142E00EAE845 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BC9015F23A9142E00EAE845 /* ZerodayUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8BC9015C23A9142E00EAE845 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8BC9013D23A9142E00EAE845 /* iokitstuff */;
+			targetProxy = 8BC9015B23A9142E00EAE845 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8BC9014A23A9142E00EAE845 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BC9014B23A9142E00EAE845 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8BC9015223A9142E00EAE845 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BC9015323A9142E00EAE845 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8BC9016123A9142E00EAE845 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8BC9016223A9142E00EAE845 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8BC9016423A9142E00EAE845 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 846WLH8CDP;
+				FRAMEWORK_SEARCH_PATHS = "$(SDK_DIR)/System/Library/PrivateFrameworks/**";
+				INFOPLIST_FILE = Zeroday/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = (
+					"-framework",
+					IOMobileFrameBuffer,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kernelprogrammer.iokitstuff;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8BC9016523A9142E00EAE845 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 846WLH8CDP;
+				FRAMEWORK_SEARCH_PATHS = "$(SDK_DIR)/System/Library/PrivateFrameworks/**";
+				INFOPLIST_FILE = Zeroday/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = (
+					"-framework",
+					IOMobileFrameBuffer,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kernelprogrammer.iokitstuff;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8BC9016723A9142E00EAE845 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = ZCB79JJ2EN;
+				INFOPLIST_FILE = ZerodayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kernelprogrammer.ZerodayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Zeroday;
+			};
+			name = Debug;
+		};
+		8BC9016823A9142E00EAE845 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = ZCB79JJ2EN;
+				INFOPLIST_FILE = ZerodayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kernelprogrammer.ZerodayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Zeroday;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8BC9013923A9142E00EAE845 /* Build configuration list for PBXProject "iokitstuff" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BC9016123A9142E00EAE845 /* Debug */,
+				8BC9016223A9142E00EAE845 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BC9016323A9142E00EAE845 /* Build configuration list for PBXNativeTarget "iokitstuff" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BC9016423A9142E00EAE845 /* Debug */,
+				8BC9016523A9142E00EAE845 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BC9016623A9142E00EAE845 /* Build configuration list for PBXNativeTarget "iokitstuffUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BC9016723A9142E00EAE845 /* Debug */,
+				8BC9016823A9142E00EAE845 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8BC9014D23A9142E00EAE845 /* Zeroday.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8BC9014E23A9142E00EAE845 /* Zeroday.xcdatamodel */,
+			);
+			currentVersion = 8BC9014E23A9142E00EAE845 /* Zeroday.xcdatamodel */;
+			path = Zeroday.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8BC9013623A9142E00EAE845 /* Project object */;
+}

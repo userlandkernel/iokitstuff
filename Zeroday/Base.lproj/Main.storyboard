@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LIM-J4-wkr">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <state key="normal" title="Boost Framebuffer">
+                                    <color key="titleColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="boostBtnTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oFc-94-jSd"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Boosting the framebuffer may lower quality of graphics" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m8q-E7-m0w">
+                                <rect key="frame" x="0.0" y="673" width="414" height="43"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <color key="textColor" red="1" green="0.66004028142813842" blue="0.10457118200722559" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="m8q-E7-m0w" secondAttribute="bottom" constant="20" symbolic="YES" id="EhS-cx-PGy"/>
+                            <constraint firstItem="LIM-J4-wkr" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="GR2-Ah-iZB"/>
+                            <constraint firstAttribute="trailing" secondItem="LIM-J4-wkr" secondAttribute="trailing" id="JtM-Ly-Tsa"/>
+                            <constraint firstItem="LIM-J4-wkr" firstAttribute="trailing" secondItem="m8q-E7-m0w" secondAttribute="trailing" id="KFT-Yf-A0g"/>
+                            <constraint firstItem="LIM-J4-wkr" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="gz6-iO-pd5"/>
+                            <constraint firstItem="LIM-J4-wkr" firstAttribute="leading" secondItem="m8q-E7-m0w" secondAttribute="leading" id="kA1-bj-bxw"/>
+                            <constraint firstItem="LIM-J4-wkr" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="xGS-lO-apn"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="boostBtn" destination="LIM-J4-wkr" id="051-GN-qnu"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-175.1953125" y="-216.10541727672035"/>
+        </scene>
+    </scenes>
+</document>
