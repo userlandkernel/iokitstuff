@@ -3,6 +3,8 @@ Please contribute by reversing the kexts and implementing easy to use methods ar
 This is a project giving easy level access to kernel drivers by implementing around the complex scalar input and selector methods of kernel drivers part of the IOKit. 
 One day it may or may not enhance bug life.  
 
+# Don't be distracted by the folder name Zeroday (It is not one).
+
 ## Whats in it
 - IOAccelerator (Weird shit going on in there, crashed the GPU while fuzzing).  
 - IOSurfaceRoot (Not even halfly implemented, too lazy as the framework's private headers should be enough).  
