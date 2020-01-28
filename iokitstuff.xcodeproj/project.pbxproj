@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B1BB27B23E0DA0F00A25E20 /* nvmecontroller.c in Sources */ = {isa = PBXBuildFile; fileRef = 8B1BB27923E0DA0F00A25E20 /* nvmecontroller.c */; };
 		8BC9014323A9142E00EAE845 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC9014223A9142E00EAE845 /* main.m */; };
 		8BC9014623A9142E00EAE845 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC9014523A9142E00EAE845 /* AppDelegate.m */; };
 		8BC9014923A9142E00EAE845 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC9014823A9142E00EAE845 /* ViewController.m */; };
@@ -38,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8B1BB27923E0DA0F00A25E20 /* nvmecontroller.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = nvmecontroller.c; sourceTree = "<group>"; };
+		8B1BB27A23E0DA0F00A25E20 /* nvmecontroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nvmecontroller.h; sourceTree = "<group>"; };
 		8BC9013E23A9142E00EAE845 /* iokitstuff.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iokitstuff.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BC9014223A9142E00EAE845 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8BC9014423A9142E00EAE845 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -123,9 +126,10 @@
 				8BC9015223A9142E00EAE845 /* LaunchScreen.storyboard */,
 				8BC9015523A9142E00EAE845 /* Info.plist */,
 				8BC9014D23A9142E00EAE845 /* Zeroday.xcdatamodeld */,
-				8BC9014123A9142E00EAE845 /* Supporting Files */,
 				8BC9017623AA20C100EAE845 /* iokit.h */,
 				8BC9017523AA20C100EAE845 /* iokit.c */,
+				8B1BB27A23E0DA0F00A25E20 /* nvmecontroller.h */,
+				8B1BB27923E0DA0F00A25E20 /* nvmecontroller.c */,
 				8BC9017323AA205700EAE845 /* iomobileframebuffer.h */,
 				8BC9017223AA205700EAE845 /* iomobileframebuffer.c */,
 				8BC9017923AA2E9F00EAE845 /* jpegdriver.h */,
@@ -136,6 +140,7 @@
 				8BC9017E23AA475000EAE845 /* ioaccelerator.m */,
 				8BC9018223AA6E5600EAE845 /* machaids.h */,
 				8BC9018123AA6E5600EAE845 /* machaids.c */,
+				8BC9014123A9142E00EAE845 /* Supporting Files */,
 			);
 			path = Zeroday;
 			sourceTree = "<group>";
@@ -279,6 +284,7 @@
 				8BC9014F23A9142E00EAE845 /* Zeroday.xcdatamodeld in Sources */,
 				8BC9014323A9142E00EAE845 /* main.m in Sources */,
 				8BC9017423AA205700EAE845 /* iomobileframebuffer.c in Sources */,
+				8B1BB27B23E0DA0F00A25E20 /* nvmecontroller.c in Sources */,
 				8BC9018323AA6E5600EAE845 /* machaids.c in Sources */,
 				8BC9018023AA475000EAE845 /* ioaccelerator.m in Sources */,
 				8BC9017A23AA2E9F00EAE845 /* jpegdriver.c in Sources */,
