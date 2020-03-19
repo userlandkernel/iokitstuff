@@ -33,6 +33,7 @@ You can always file an issue if you're stuck but do note that I will not aid in 
 ## Additional credits & Thanks
 - Luca Todesco for pointing me out that coffee is important (I screwed up algorithms when I was tired).  
 - [TheiPhoneDevWiki](https://iphonedevwiki.net/)
+- [Herpnya](https://twitter.com/MuscleNerd)
 - Google Project Zero (Blog, August 2019).  
 - Apple Inc. (Why? They permit the connections to these drivers from within the sandbox without requiring entitlements).  
 - OSXFuzz (The machaids contain some methods from OSXFuzz for future plans)
